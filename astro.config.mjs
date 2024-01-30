@@ -1,10 +1,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const LIVE_URL = 'https://jpledos.github.io'
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://jpledos.github.io',
-	base: '/astro-doc-oletis',
+	// base: '/astro-doc-oletis',
 	integrations: [
 		starlight({
 			title: 'Accueil',
