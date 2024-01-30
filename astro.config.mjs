@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://jpledos.github.io',
+	base: '/astro-doc-oletis',
 	integrations: [
 		starlight({
 			title: 'Accueil',
