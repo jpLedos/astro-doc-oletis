@@ -6,12 +6,12 @@ const LIVE_URL = 'https://jpledos.github.io'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://jpledos.github.io',
-	// base: '/astro-doc-oletis',
+	base: '/astro-doc-oletis',
 	integrations: [
 		starlight({
 			title: 'Accueil',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				linkedin: 'https://www.linkedin.com/in/j-pierre-ledos/',
 			},
 			sidebar: [
 				{
