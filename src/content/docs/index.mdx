@@ -1,0 +1,36 @@
+---
+title: Ker Hospitality Sales Support
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: Les essentiels de la commercialisation
+  image:
+    file: ../../assets/hotel.jpg
+#   actions:
+#     - text: Example Guide
+#       link: /guides/example/
+#       icon: right-arrow
+#       variant: primary
+#     - text: Read the Starlight docs
+#       link: https://starlight.astro.build
+#       icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Bienvenue sur Ker Hospitality Sales Support !
+### Deux parcours s'offrent à vous:
+le premier en 4 étapes pour s’engager ou aller plus loin dans votre commercialisation\
+le deuxième pour se familiariser avec les outils digitaux
+
+<CardGrid stagger>
+	<Card title="Initiation à la commercialisation" icon="pencil">
+		 [Je me lance](./commercialisation).
+	</Card>
+	<Card title="Commercialisation digitale" icon="add-document">
+		[J'approfondis mes connaissances](./digital)
+	</Card>
+	<Card title="Accès aux Ressources" icon="setting">
+		[Je consulte](./digital)
+	</Card>
+</CardGrid>
